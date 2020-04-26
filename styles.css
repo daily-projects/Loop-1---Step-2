@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./img/background.jpg');
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 366px;
+  width: 366px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.logo {
+  height: 25px;
+  width: 40px;
+}
+
+.three-dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.one-dot {
+  background: #AAAAAA;
+}
+
+.two-dot, .three-dot {
+  background: #DEDEDE;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.visa, .mastercard, .maestro {
+  border-top:1px solid #DEDEDE;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #E1E1E1;
+}
+
+.text {
+  color: #AAACB3;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 30px;
+  font-size: 16px;
+}
+.mastercard {
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5B8DD9;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.footer img {
+  transform: scale(0.7);
+}
+
+.active {
+  color:#000000;
+}
